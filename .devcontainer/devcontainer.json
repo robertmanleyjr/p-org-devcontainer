@@ -10,7 +10,7 @@
 		"ghcr.io/devcontainers/features/java:1": {}
 	},
 	"runArgs": [
-  		"--userns=keep-id:uid=1000,gid=1000"
+  		"--userns=keep-id"
  	],
  	"containerUser": "vscode",
  	"updateRemoteUserUID": true,
